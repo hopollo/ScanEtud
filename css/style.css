@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+.userInput-container h2 {
+  display: block;
+}
+
 .clock-container {
   color: white;
 }
@@ -25,5 +29,20 @@ body {
 
 .clock-container .date {
   font-size: 1em;
+}
+
+.result-container {
+  width: 50vw;
+  height: 80vh;
+  border-radius: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background: grey;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1.5vw;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
