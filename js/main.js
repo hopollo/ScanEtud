@@ -40,6 +40,6 @@ function checkScan() {
   console.log('CheckScan Launched');
   const resultArea = document.querySelector('.result-container');
   const input = document.querySelector('#bareCode').value;
-  const data = 3103220033838;
+  const data = "3103220033838";
   if (input != data) { resultArea.style.background = "red"; } else { resultArea.style.background = "green"; }
 }
