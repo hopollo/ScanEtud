@@ -32,3 +32,14 @@ function getClock() {
     dateElement.innerHTML = date;
   }, 1000);
 }
+
+document.querySelector('#bareCode').addEventListener("input", checkScan);
+document.querySelector('#validateButton').addEventListener("click", checkScan);
+
+function checkScan() {
+  console.log('CheckScan Launched');
+  const resultArea = document.querySelector('.result-container');
+  const input = document.querySelector('#bareCode').value;
+  const data = 3103220033838;
+  if (input != data) { resultArea.style.background = "red"; } else { resultArea.style.background = "green"; }
+}
